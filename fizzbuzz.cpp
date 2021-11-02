@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std; 
+
 
 /*     <-------------FIZZ BUZZ Project --------------->           */
 
@@ -14,18 +14,18 @@ int main()
         A[i]=i;
         if (i % 15 == 0 )
         {
-            cout<< "FIZZBUZZ" << endl;
+        std::cout<< "FIZZBUZZ" << "\n";
         }
         else if (i % 3 == 0 )
         {
-           cout<< "FIZZ "<< endl;
+        std::cout<< "FIZZ " <<"\n";
         }
         else if (i % 5 ==0 )
         {
-            cout<< "BUZZ "<< endl;
+        std::cout<< "BUZZ "<< "\n";
         }
         else
-        cout<< i << endl;  
+        std::cout<< i << "\n";  
     }
     return 0; 
     
